@@ -31,6 +31,16 @@ python client.py --query "What is the Qwen3?"
 
 ---
 
+#Note on Version Conflicts
+
+There are some dependency version conflicts between crewai and fastmcp:
+crewai requires mcp~=1.16.0, but fastmcp installed mcp 1.25.0
+
+Solution
+Installed the missing package:
+
+pip install fastmcp
+
 ## 📬 Stay Updated with Our Newsletter!
 **Get a FREE Data Science eBook** 📖 with 150+ essential lessons in Data Science when you subscribe to our newsletter! Stay in the loop with the latest tutorials, insights, and exclusive resources. [Subscribe now!](https://join.dailydoseofds.com)
 
